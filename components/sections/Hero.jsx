@@ -1,11 +1,11 @@
 import Image from "next/image";
 import Link from "next/link";
-import SectionWrapper from "../SectionWrapper";
+import Wrapper from "../ui/Wrapper";
 
 const Hero = () => {
     return ( 
         <div className="bg-hero-texture h-[80vh] bg-cover big-no-repeat">
-            <SectionWrapper customStyles="px-[20px]">
+            <Wrapper>
                 <div className="grid grid-cols-1 md:grid-cols-2 gap-x-48 items-center h-full">
                     <div className="md:-ml-10">
                         <img src="/images/pendulum.png" alt="Pendulum" />
@@ -19,7 +19,7 @@ const Hero = () => {
                         </Link>
                     </div>
                 </div>
-            </SectionWrapper>
+            </Wrapper>
         </div>
     );
 }
