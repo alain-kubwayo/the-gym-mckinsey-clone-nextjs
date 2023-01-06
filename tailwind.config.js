@@ -13,6 +13,9 @@ module.exports = {
         secondary: {
           100: '#2155FF',
         }
+      },
+      backgroundImage: {
+        'hero-texture': "url('/images/hero-cover.png')"
       }
     },
   },
